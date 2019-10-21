@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "./ryu/tests/run_tests.py", line 7, in <module>
+    from nose import config
+ImportError: No module named nose
