@@ -29,7 +29,6 @@ class MiTopo(Topo):
         h7 = self.addHost('h7')
         h9 = self.addHost('h9')
 
-
         self.addLink(h1, s2)
         self.addLink(h9, s4)
         self.addLink(h2, s2)
@@ -42,7 +41,7 @@ class MiTopo(Topo):
         self.addLink(h6, s3)
         self.addLink(h7, s4)
         self.addLink(h8, s4)
-        info('llegue al final de mitopo\n')
+        #info('llegue al final de mitopo\n')
 
 
 #topos = { 'TopoMia': ( lambda: MiTopo() ) }
