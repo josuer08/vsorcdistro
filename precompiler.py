@@ -23,7 +23,7 @@ time.sleep(.300)
 document = open("data" + "_clean" ,"r+")
 links = document.readlines()
 document.close
-
+#"data" is the file with the topo vsorc script
 
 #clean the \n in the colected data
 a = 0
