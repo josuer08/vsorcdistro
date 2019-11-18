@@ -1,6 +1,7 @@
 CHANGES
 =======
 
+* Se reinstalo ryu para configurar STP y que el restAPI no sea publico(127.0.0.1)
 * El precompiler esta avanzado, ahora solo con crear el archivo data con el lenguaje vsorc se puede arrancar la topologia
 * added cleaner and precompiler
 * second try
