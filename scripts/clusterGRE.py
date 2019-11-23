@@ -17,7 +17,7 @@ from precompiler import TopoFromCompiler
 
 def inicia():
     IPs = '/home/pi/scripts/iplist'
-    c = RemoteController('c1', ip='192.168.25.10', port=6633)
+    c = RemoteController('c1', ip='192.168.25.2', port=6633)
     servers = readIPs(IPs)
     #servers = ['192.168.25.2', '192.168.25.3', '192.168.25.4','192.168.25.5','192.168.25.6']
     topo1 = TreeTopo(depth=2, fanout=2) # Topologia basica
