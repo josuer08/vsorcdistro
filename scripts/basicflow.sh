@@ -7,6 +7,7 @@ This script is applied to a linear 3 topo, just for show the example
 echo "Cleaning all flows entry switch dpid 1 and 2"
 curl -X DELETE http://localhost:8080/stats/flowentry/clear/1
 curl -X DELETE http://localhost:8080/stats/flowentry/clear/2
+curl -X DELETE http://localhost:8080/stats/flowentry/clear/3
 echo "adding new flows entry to switches 1 and 2"
 
 curl -X POST -d '{

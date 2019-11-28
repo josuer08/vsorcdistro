@@ -92,6 +92,7 @@ class CLI( Cmd ):
 
     def run( self ):
         "Run our cmdloop(), catching KeyboardInterrupt"
+	info( '*** CLI Started:\n' )
         while True:
             try:
                 # Make sure no nodes are still waiting

@@ -453,7 +453,7 @@ class Mininet( object ):
         if self.cleanup:
             pass
 
-        info( '*** Creating network...(toy en mininet.net buildfromtopo)\n' )
+        info( '\n*** Creating network...\n' )
 
         if not self.controllers and self.controller:
             # Add a default controller
@@ -472,8 +472,6 @@ class Mininet( object ):
         for hostName in topo.hosts():
             self.addHost( hostName, **topo.nodeInfo( hostName ) )
             info( hostName + ' ' )
-            info('dentro de adding host\n')
-        info('sali de adding host')
 
         info( '\n*** Adding switches:\n' )
         for switchName in topo.switches():

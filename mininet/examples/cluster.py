@@ -787,7 +787,7 @@ class MininetCluster( Mininet ):
         """Pre-check to make sure connection works and that
            we can call sudo without a password"""
         result = 0
-        info( '*** Checking servers\n' )
+        info( '*** Checking all Raspberry Pi\n' )
         for server in self.servers:
             ip = self.serverIP[ server ]
             if not server or server == 'localhost':
@@ -872,7 +872,7 @@ class MininetCluster( Mininet ):
 
     def buildFromTopo( self, *args, **kwargs ):
         "Start network"
-        info( '*** Placing nodes(estoy en cluster.py class mncluster)\n' )
+        info( '\n*** Placing nodes on Raspberry Pi Cluster\n' )
         self.placeNodes()
         info( '\n' )
         Mininet.buildFromTopo( self, *args, **kwargs )
