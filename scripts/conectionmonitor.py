@@ -1,11 +1,10 @@
 #!/usr/bin/python
 import os
-for i in range(3,17):
-    hostname = "192.168.25."+str(i) #example
+print "Raspberry Pi UP!"
+for i in range(2,16):
+    hostname = "rpi"+str(i)
     response = os.system("ping -c 1 " + hostname +" > /dev/null")
-
-#and then check the response...
+#Check the response...
     if response == 0:
         print hostname
-#    else:
-#        print hostname, 'is down!'
+

@@ -65,6 +65,7 @@ class TopoFromCompiler(Topo):
 		                switches.append(switch)
 
 		print ("Devices: " + str(devices) + "\n" + "Links: " + str(links) + "\n" + "Hosts: " + str(hosts) + "\n" + "Switches: " + str(switches) + "\n")
+		sys.stdout.flush()
 		
 		#Create links
 		for pair in links:

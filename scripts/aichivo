@@ -1,27 +1,37 @@
-Unable to contact the remote controller at 192.168.25.2:6633
+Devices: []
+Links: []
+Hosts: []
+Switches: []
+
 *** Checking all Raspberry Pi
 rpi2 rpi3 rpi4 rpi5 rpi6 rpi7 rpi8 rpi9 rpi10 rpi11 rpi12 rpi13 rpi14 rpi15 
 
 *** Placing nodes on Raspberry Pi Cluster
-h1:rpi2 h2:rpi3 s1:rpi2 s2:rpi3 
+
 
 *** Creating network...
 *** Adding controller
 *** Adding hosts:
-h1 h2 
+
 *** Adding switches:
-s1 s2 
+
 *** Adding links:
-(s1, h1) (s1, s2) (s2, h2) 
+
 *** Configuring hosts
-h1 h2 
+
 *** Starting controller
 c1 
-*** Starting 2 switches
-s1 s2 (rpi2)...(rpi3)...
+*** Starting 0 switches
+
 *** Starting CLI:
 *** CLI Started:
-*** Ping: testing ping reachability
-h1 -> h2 
-h2 -> h1 
-*** Results: 0% dropped (2/2 received)
+*** Stopping 1 controllers
+c1 
+*** Stopping 0 links
+
+*** Stopping 0 switches
+
+*** Stopping 0 hosts
+
+*** Done
+VSoRC>
