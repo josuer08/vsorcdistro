@@ -1,37 +1,47 @@
-Devices: []
-Links: []
-Hosts: []
-Switches: []
+Devices: ['s3', 's2', 's1', 'h1', 'h2', 'h3']
+Links: ['s1:s2', 's2:s3', 's1:h1', 's2:h2', 's3:h3']
+Hosts: ['h1', 'h2', 'h3']
+Switches: ['s3', 's2', 's1']
 
 *** Checking all Raspberry Pi
 rpi2 rpi3 rpi4 rpi5 rpi6 rpi7 rpi8 rpi9 rpi10 rpi11 rpi12 rpi13 rpi14 rpi15 
 
 *** Placing nodes on Raspberry Pi Cluster
-
+h1:rpi2 h2:rpi3 h3:rpi4 s1:rpi2 s2:rpi3 s3:rpi4 
 
 *** Creating network...
 *** Adding controller
 *** Adding hosts:
-
+h1 h2 h3 
 *** Adding switches:
-
+s1 s2 s3 
 *** Adding links:
-
+(s1, h1) (s1, s2) (s2, h2) (s2, s3) (s3, h3) 
 *** Configuring hosts
-
+h1 h2 h3 
 *** Starting controller
 c1 
-*** Starting 0 switches
-
+*** Starting 3 switches
+s1 s2 s3 (rpi2)...(rpi3)...(rpi4)...
 *** Starting CLI:
 *** CLI Started:
+*** Ping: testing ping reachability
+h1 -> h2 h3 
+h2 -> h1 h3 
+h3 -> h1 h2 
+*** Results: 0% dropped (6/6 received)
+*** Ping: testing ping reachability
+h1 -> h2 h3 
+h2 -> h1 h3 
+h3 -> h1 h2 
+*** Results: 0% dropped (6/6 received)
 *** Stopping 1 controllers
 c1 
-*** Stopping 0 links
-
-*** Stopping 0 switches
-
-*** Stopping 0 hosts
-
+*** Stopping 5 links
+.....
+*** Stopping 3 switches
+(rpi2)(rpi3)(rpi4)s1 s2 s3 
+*** Stopping 3 hosts
+h1 h2 h3 
 *** Done
-VSoRC>
+VSoRC>VSoRC>VSoRC>

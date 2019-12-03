@@ -3,8 +3,10 @@
 Written by: Felix G. Tejada
 
 This is the principal script to start the project.
-You can start different topology, but by default is starting anything from the precompiler
+You can start different topology, but by default is starting anything from the precompiler, from web.
 
+If you want to start any other topology, just change the constructor MininetCluster with topology 
+you want.
 """
 "clusterGRE.py: Mininet Raspberry Pi Cluster"
 from mininet.examples.cluster import MininetCluster, SwitchBinPlacer, RemoteGRELink
