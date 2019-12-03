@@ -12,13 +12,13 @@ echo "adding new flows entry to switches 1 and 2"
 
 curl -X POST -d '{
     "dpid": 1,
-    "cookie": 1,
-    "cookie_mask": 1,
+    "cookie": 0,
+    "cookie_mask": 0,
     "table_id": 0,
     "idle_timeout": 0,
     "hard_timeout": 0,
-    "priority": 11111,
-    "flags": 1,
+    "priority": 1,
+    "flags": 0,
     "match":{
         "in_port":1
     },
@@ -32,13 +32,13 @@ curl -X POST -d '{
 
 curl -X POST -d '{
     "dpid": 1,
-    "cookie": 1,
-    "cookie_mask": 1,
+    "cookie": 0,
+    "cookie_mask": 0,
     "table_id": 0,
     "idle_timeout": 0,
     "hard_timeout": 0,
-    "priority": 22222,
-    "flags": 1,
+    "priority": 1,
+    "flags": 0,
     "match":{
         "in_port":2
     },
@@ -51,13 +51,13 @@ curl -X POST -d '{
  }' http://localhost:8080/stats/flowentry/add
 curl -X POST -d '{
     "dpid": 2,
-    "cookie": 1,
-    "cookie_mask": 1,
+    "cookie": 0,
+    "cookie_mask": 0,
     "table_id": 0,
     "idle_timeout": 0,
     "hard_timeout": 0,
-    "priority": 11111,
-    "flags": 1,
+    "priority": 1,
+    "flags": 0,
     "match":{
         "in_port":2
     },
@@ -71,13 +71,13 @@ curl -X POST -d '{
 
 curl -X POST -d '{
     "dpid": 2,
-    "cookie": 1,
-    "cookie_mask": 1,
+    "cookie": 0,
+    "cookie_mask": 0,
     "table_id": 0,
     "idle_timeout": 0,
     "hard_timeout": 0,
-    "priority": 22222,
-    "flags": 1,
+    "priority": 1,
+    "flags": 0,
     "match":{
         "in_port":1
     },
