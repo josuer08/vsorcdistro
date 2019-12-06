@@ -728,3 +728,515 @@ Stderr: no such identity: /root/.ssh/id_rsa: No such file or directory
 pssh error: SSH requested a password. Please create SSH keys or use
 the -A option to provide a password.
 Permission denied (publickey,password).
+[1] 02:04:52 [FAILURE] rpi3 Exited with error code 255
+Stderr: The authenticity of host 'rpi3 (192.168.25.4)' can't be established.
+ECDSA key fingerprint is SHA256:i52lKWV0Tre6VB09Ib9/MFGC8brk20G1EvSu7OohiwY.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[2] 02:04:52 [FAILURE] rpi7 Exited with error code 255
+Stderr: The authenticity of host 'rpi7 (192.168.25.8)' can't be established.
+ECDSA key fingerprint is SHA256:j4nfLMvp1NHkUnUZXlblm+v5+XjNlkzOCdN92xzUiD8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[3] 02:04:52 [FAILURE] rpi8 Exited with error code 255
+Stderr: The authenticity of host 'rpi8 (192.168.25.9)' can't be established.
+ECDSA key fingerprint is SHA256:SuapdTAqDvy3uQ+PTJyCLB3C4YChuIxeNm3JfXTnHFE.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[4] 02:04:52 [FAILURE] rpi4 Exited with error code 255
+Stderr: The authenticity of host 'rpi4 (192.168.25.5)' can't be established.
+ECDSA key fingerprint is SHA256:qxDi+gZkIA0ZkTJCI0eqATvxzBLt6SP8HlQqy6GCFag.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[5] 02:04:52 [FAILURE] rpi6 Exited with error code 255
+Stderr: The authenticity of host 'rpi6 (192.168.25.7)' can't be established.
+ECDSA key fingerprint is SHA256:q3EgxfzVe1vbAcj8A415RihNmJjfQIcseKeh8VLitVU.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[6] 02:04:52 [FAILURE] rpi9 Exited with error code 255
+Stderr: The authenticity of host 'rpi9 (192.168.25.10)' can't be established.
+ECDSA key fingerprint is SHA256:ZP7KtTI8FQFfuzXWMJ4Aw9Wwk61oOyN8Lg1WIGyFkU8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[7] 02:04:52 [FAILURE] rpi13 Exited with error code 255
+Stderr: The authenticity of host 'rpi13 (192.168.25.14)' can't be established.
+ECDSA key fingerprint is SHA256:Yhp21MyqPA5UzZUBgCR9aWQMyq9EQzY/w4i3tfGi7m8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[8] 02:04:52 [FAILURE] rpi5 Exited with error code 255
+Stderr: The authenticity of host 'rpi5 (192.168.25.6)' can't be established.
+ECDSA key fingerprint is SHA256:dszzIQzVzVCKSZ+Vzkj9KNAirLZzKm//p+Tih+Pcl2Q.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[9] 02:04:52 [FAILURE] rpi12 Exited with error code 255
+Stderr: The authenticity of host 'rpi12 (192.168.25.13)' can't be established.
+ECDSA key fingerprint is SHA256:uHULq6fPDc6BlE6ilj1Lx0zFQbDQvH3VkaSEADBBiZo.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[10] 02:04:52 [FAILURE] rpi14 Exited with error code 255
+Stderr: The authenticity of host 'rpi14 (192.168.25.15)' can't be established.
+ECDSA key fingerprint is SHA256:nGhx4GRSDHqb8qLUALRMT9INQcZFzMDf3S0bIECshRY.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[11] 02:04:52 [FAILURE] rpi10 Exited with error code 255
+Stderr: The authenticity of host 'rpi10 (192.168.25.11)' can't be established.
+ECDSA key fingerprint is SHA256:mlrzAb0na2vRE3Pu78kLYsDYk1sx0NnS8a0JtfOdC9w.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[12] 02:04:52 [FAILURE] rpi11 Exited with error code 255
+Stderr: The authenticity of host 'rpi11 (192.168.25.12)' can't be established.
+ECDSA key fingerprint is SHA256:1sUd6ie0ouCUeDxKKJV1Bo6nuAcg624s/ZoHFM153vE.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[13] 02:04:52 [FAILURE] rpi15 Exited with error code 255
+Stderr: no such identity: /root/.ssh/id_rsa: No such file or directory
+pssh error: SSH requested a password. Please create SSH keys or use
+the -A option to provide a password.
+Permission denied (publickey,password).
+[14] 02:04:53 [FAILURE] rpi2 Exited with error code 255
+Stderr: The authenticity of host 'rpi2 (192.168.25.3)' can't be established.
+ECDSA key fingerprint is SHA256:BxV9LfXPZ2DdTBoF2X7u+Ur4bppbTy++7xcmu2yITuA.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[1] 19:58:30 [FAILURE] rpi3 Exited with error code 255
+Stderr: The authenticity of host 'rpi3 (192.168.25.4)' can't be established.
+ECDSA key fingerprint is SHA256:i52lKWV0Tre6VB09Ib9/MFGC8brk20G1EvSu7OohiwY.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[2] 19:58:30 [FAILURE] rpi4 Exited with error code 255
+Stderr: The authenticity of host 'rpi4 (192.168.25.5)' can't be established.
+ECDSA key fingerprint is SHA256:qxDi+gZkIA0ZkTJCI0eqATvxzBLt6SP8HlQqy6GCFag.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[3] 19:58:30 [FAILURE] rpi2 Exited with error code 255
+Stderr: The authenticity of host 'rpi2 (192.168.25.3)' can't be established.
+ECDSA key fingerprint is SHA256:BxV9LfXPZ2DdTBoF2X7u+Ur4bppbTy++7xcmu2yITuA.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[4] 19:58:30 [FAILURE] rpi6 Exited with error code 255
+Stderr: The authenticity of host 'rpi6 (192.168.25.7)' can't be established.
+ECDSA key fingerprint is SHA256:q3EgxfzVe1vbAcj8A415RihNmJjfQIcseKeh8VLitVU.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[5] 19:58:30 [FAILURE] rpi5 Exited with error code 255
+Stderr: The authenticity of host 'rpi5 (192.168.25.6)' can't be established.
+ECDSA key fingerprint is SHA256:dszzIQzVzVCKSZ+Vzkj9KNAirLZzKm//p+Tih+Pcl2Q.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[6] 19:58:30 [FAILURE] rpi8 Exited with error code 255
+Stderr: The authenticity of host 'rpi8 (192.168.25.9)' can't be established.
+ECDSA key fingerprint is SHA256:SuapdTAqDvy3uQ+PTJyCLB3C4YChuIxeNm3JfXTnHFE.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[7] 19:58:30 [FAILURE] rpi9 Exited with error code 255
+Stderr: The authenticity of host 'rpi9 (192.168.25.10)' can't be established.
+ECDSA key fingerprint is SHA256:ZP7KtTI8FQFfuzXWMJ4Aw9Wwk61oOyN8Lg1WIGyFkU8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[8] 19:58:30 [FAILURE] rpi10 Exited with error code 255
+Stderr: The authenticity of host 'rpi10 (192.168.25.11)' can't be established.
+ECDSA key fingerprint is SHA256:mlrzAb0na2vRE3Pu78kLYsDYk1sx0NnS8a0JtfOdC9w.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[9] 19:58:30 [FAILURE] rpi13 Exited with error code 255
+Stderr: The authenticity of host 'rpi13 (192.168.25.14)' can't be established.
+ECDSA key fingerprint is SHA256:Yhp21MyqPA5UzZUBgCR9aWQMyq9EQzY/w4i3tfGi7m8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[10] 19:58:30 [FAILURE] rpi7 Exited with error code 255
+Stderr: The authenticity of host 'rpi7 (192.168.25.8)' can't be established.
+ECDSA key fingerprint is SHA256:j4nfLMvp1NHkUnUZXlblm+v5+XjNlkzOCdN92xzUiD8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[11] 19:58:30 [FAILURE] rpi11 Exited with error code 255
+Stderr: The authenticity of host 'rpi11 (192.168.25.12)' can't be established.
+ECDSA key fingerprint is SHA256:1sUd6ie0ouCUeDxKKJV1Bo6nuAcg624s/ZoHFM153vE.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[12] 19:58:30 [FAILURE] rpi12 Exited with error code 255
+Stderr: The authenticity of host 'rpi12 (192.168.25.13)' can't be established.
+ECDSA key fingerprint is SHA256:uHULq6fPDc6BlE6ilj1Lx0zFQbDQvH3VkaSEADBBiZo.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[13] 19:58:30 [FAILURE] rpi15 Exited with error code 255
+Stderr: no such identity: /root/.ssh/id_rsa: No such file or directory
+pssh error: SSH requested a password. Please create SSH keys or use
+the -A option to provide a password.
+Permission denied (publickey,password).
+[14] 19:58:32 [FAILURE] rpi14 Exited with error code 255
+Stderr: ssh: connect to host rpi14 port 22: No route to host
+[1] 20:05:02 [FAILURE] rpi4 Exited with error code 255
+Stderr: The authenticity of host 'rpi4 (192.168.25.5)' can't be established.
+ECDSA key fingerprint is SHA256:qxDi+gZkIA0ZkTJCI0eqATvxzBLt6SP8HlQqy6GCFag.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[2] 20:05:02 [FAILURE] rpi2 Exited with error code 255
+Stderr: The authenticity of host 'rpi2 (192.168.25.3)' can't be established.
+ECDSA key fingerprint is SHA256:BxV9LfXPZ2DdTBoF2X7u+Ur4bppbTy++7xcmu2yITuA.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[3] 20:05:02 [FAILURE] rpi5 Exited with error code 255
+Stderr: The authenticity of host 'rpi5 (192.168.25.6)' can't be established.
+ECDSA key fingerprint is SHA256:dszzIQzVzVCKSZ+Vzkj9KNAirLZzKm//p+Tih+Pcl2Q.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[4] 20:05:02 [FAILURE] rpi7 Exited with error code 255
+Stderr: The authenticity of host 'rpi7 (192.168.25.8)' can't be established.
+ECDSA key fingerprint is SHA256:j4nfLMvp1NHkUnUZXlblm+v5+XjNlkzOCdN92xzUiD8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[5] 20:05:02 [FAILURE] rpi6 Exited with error code 255
+Stderr: The authenticity of host 'rpi6 (192.168.25.7)' can't be established.
+ECDSA key fingerprint is SHA256:q3EgxfzVe1vbAcj8A415RihNmJjfQIcseKeh8VLitVU.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[6] 20:05:02 [FAILURE] rpi13 Exited with error code 255
+Stderr: The authenticity of host 'rpi13 (192.168.25.14)' can't be established.
+ECDSA key fingerprint is SHA256:Yhp21MyqPA5UzZUBgCR9aWQMyq9EQzY/w4i3tfGi7m8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[7] 20:05:02 [FAILURE] rpi12 Exited with error code 255
+Stderr: The authenticity of host 'rpi12 (192.168.25.13)' can't be established.
+ECDSA key fingerprint is SHA256:uHULq6fPDc6BlE6ilj1Lx0zFQbDQvH3VkaSEADBBiZo.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[8] 20:05:02 [FAILURE] rpi11 Exited with error code 255
+Stderr: The authenticity of host 'rpi11 (192.168.25.12)' can't be established.
+ECDSA key fingerprint is SHA256:1sUd6ie0ouCUeDxKKJV1Bo6nuAcg624s/ZoHFM153vE.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[9] 20:05:02 [FAILURE] rpi9 Exited with error code 255
+Stderr: The authenticity of host 'rpi9 (192.168.25.10)' can't be established.
+ECDSA key fingerprint is SHA256:ZP7KtTI8FQFfuzXWMJ4Aw9Wwk61oOyN8Lg1WIGyFkU8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[10] 20:05:02 [FAILURE] rpi10 Exited with error code 255
+Stderr: The authenticity of host 'rpi10 (192.168.25.11)' can't be established.
+ECDSA key fingerprint is SHA256:mlrzAb0na2vRE3Pu78kLYsDYk1sx0NnS8a0JtfOdC9w.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[11] 20:05:02 [FAILURE] rpi3 Exited with error code 255
+Stderr: The authenticity of host 'rpi3 (192.168.25.4)' can't be established.
+ECDSA key fingerprint is SHA256:i52lKWV0Tre6VB09Ib9/MFGC8brk20G1EvSu7OohiwY.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[12] 20:05:02 [FAILURE] rpi8 Exited with error code 255
+Stderr: The authenticity of host 'rpi8 (192.168.25.9)' can't be established.
+ECDSA key fingerprint is SHA256:SuapdTAqDvy3uQ+PTJyCLB3C4YChuIxeNm3JfXTnHFE.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[13] 20:05:03 [FAILURE] rpi15 Exited with error code 255
+Stderr: no such identity: /root/.ssh/id_rsa: No such file or directory
+pssh error: SSH requested a password. Please create SSH keys or use
+the -A option to provide a password.
+Permission denied (publickey,password).
+[14] 20:05:05 [FAILURE] rpi14 Exited with error code 255
+Stderr: ssh: connect to host rpi14 port 22: No route to host
+[1] 22:21:52 [FAILURE] rpi4 Exited with error code 255
+Stderr: ssh: connect to host rpi4 port 22: No route to host
+[2] 22:21:52 [FAILURE] rpi6 Exited with error code 255
+Stderr: ssh: connect to host rpi6 port 22: No route to host
+[3] 22:21:52 [FAILURE] rpi7 Exited with error code 255
+Stderr: ssh: connect to host rpi7 port 22: No route to host
+[4] 22:21:52 [FAILURE] rpi2 Exited with error code 255
+Stderr: ssh: connect to host rpi2 port 22: No route to host
+[5] 22:21:52 [FAILURE] rpi5 Exited with error code 255
+Stderr: ssh: connect to host rpi5 port 22: No route to host
+[6] 22:21:52 [FAILURE] rpi3 Exited with error code 255
+Stderr: ssh: connect to host rpi3 port 22: No route to host
+[7] 22:21:52 [FAILURE] rpi14 Exited with error code 255
+Stderr: ssh: connect to host rpi14 port 22: No route to host
+[8] 22:21:52 [FAILURE] rpi15 Exited with error code 255
+Stderr: ssh: connect to host rpi15 port 22: No route to host
+[9] 22:21:52 [FAILURE] rpi10 Exited with error code 255
+Stderr: ssh: connect to host rpi10 port 22: No route to host
+[10] 22:21:52 [FAILURE] rpi11 Exited with error code 255
+Stderr: ssh: connect to host rpi11 port 22: No route to host
+[11] 22:21:52 [FAILURE] rpi9 Exited with error code 255
+Stderr: ssh: connect to host rpi9 port 22: No route to host
+[12] 22:21:52 [FAILURE] rpi13 Exited with error code 255
+Stderr: ssh: connect to host rpi13 port 22: No route to host
+[13] 22:21:52 [FAILURE] rpi8 Exited with error code 255
+Stderr: ssh: connect to host rpi8 port 22: No route to host
+[14] 22:21:52 [FAILURE] rpi12 Exited with error code 255
+Stderr: ssh: connect to host rpi12 port 22: No route to host
+[1] 23:13:58 [FAILURE] rpi6 Exited with error code 255
+Stderr: The authenticity of host 'rpi6 (192.168.25.7)' can't be established.
+ECDSA key fingerprint is SHA256:q3EgxfzVe1vbAcj8A415RihNmJjfQIcseKeh8VLitVU.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[2] 23:13:58 [FAILURE] rpi3 Exited with error code 255
+Stderr: The authenticity of host 'rpi3 (192.168.25.4)' can't be established.
+ECDSA key fingerprint is SHA256:i52lKWV0Tre6VB09Ib9/MFGC8brk20G1EvSu7OohiwY.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[3] 23:13:58 [FAILURE] rpi7 Exited with error code 255
+Stderr: The authenticity of host 'rpi7 (192.168.25.8)' can't be established.
+ECDSA key fingerprint is SHA256:j4nfLMvp1NHkUnUZXlblm+v5+XjNlkzOCdN92xzUiD8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[4] 23:13:58 [FAILURE] rpi11 Exited with error code 255
+Stderr: The authenticity of host 'rpi11 (192.168.25.12)' can't be established.
+ECDSA key fingerprint is SHA256:1sUd6ie0ouCUeDxKKJV1Bo6nuAcg624s/ZoHFM153vE.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[5] 23:13:58 [FAILURE] rpi4 Exited with error code 255
+Stderr: The authenticity of host 'rpi4 (192.168.25.5)' can't be established.
+ECDSA key fingerprint is SHA256:qxDi+gZkIA0ZkTJCI0eqATvxzBLt6SP8HlQqy6GCFag.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[6] 23:13:58 [FAILURE] rpi12 Exited with error code 255
+Stderr: The authenticity of host 'rpi12 (192.168.25.13)' can't be established.
+ECDSA key fingerprint is SHA256:uHULq6fPDc6BlE6ilj1Lx0zFQbDQvH3VkaSEADBBiZo.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[7] 23:13:58 [FAILURE] rpi13 Exited with error code 255
+Stderr: The authenticity of host 'rpi13 (192.168.25.14)' can't be established.
+ECDSA key fingerprint is SHA256:Yhp21MyqPA5UzZUBgCR9aWQMyq9EQzY/w4i3tfGi7m8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[8] 23:13:58 [FAILURE] rpi2 Exited with error code 255
+Stderr: The authenticity of host 'rpi2 (192.168.25.3)' can't be established.
+ECDSA key fingerprint is SHA256:BxV9LfXPZ2DdTBoF2X7u+Ur4bppbTy++7xcmu2yITuA.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[9] 23:13:58 [FAILURE] rpi5 Exited with error code 255
+Stderr: The authenticity of host 'rpi5 (192.168.25.6)' can't be established.
+ECDSA key fingerprint is SHA256:dszzIQzVzVCKSZ+Vzkj9KNAirLZzKm//p+Tih+Pcl2Q.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[10] 23:13:58 [FAILURE] rpi10 Exited with error code 255
+Stderr: The authenticity of host 'rpi10 (192.168.25.11)' can't be established.
+ECDSA key fingerprint is SHA256:mlrzAb0na2vRE3Pu78kLYsDYk1sx0NnS8a0JtfOdC9w.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[11] 23:13:58 [FAILURE] rpi14 Exited with error code 255
+Stderr: The authenticity of host 'rpi14 (192.168.25.15)' can't be established.
+ECDSA key fingerprint is SHA256:nGhx4GRSDHqb8qLUALRMT9INQcZFzMDf3S0bIECshRY.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[12] 23:13:58 [FAILURE] rpi8 Exited with error code 255
+Stderr: The authenticity of host 'rpi8 (192.168.25.9)' can't be established.
+ECDSA key fingerprint is SHA256:SuapdTAqDvy3uQ+PTJyCLB3C4YChuIxeNm3JfXTnHFE.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[13] 23:13:58 [FAILURE] rpi9 Exited with error code 255
+Stderr: The authenticity of host 'rpi9 (192.168.25.10)' can't be established.
+ECDSA key fingerprint is SHA256:ZP7KtTI8FQFfuzXWMJ4Aw9Wwk61oOyN8Lg1WIGyFkU8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[14] 23:13:58 [FAILURE] rpi15 Exited with error code 255
+Stderr: no such identity: /root/.ssh/id_rsa: No such file or directory
+pssh error: SSH requested a password. Please create SSH keys or use
+the -A option to provide a password.
+Permission denied (publickey,password).
+[1] 01:24:44 [FAILURE] rpi6 Exited with error code 255
+Stderr: The authenticity of host 'rpi6 (192.168.25.7)' can't be established.
+ECDSA key fingerprint is SHA256:q3EgxfzVe1vbAcj8A415RihNmJjfQIcseKeh8VLitVU.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[2] 01:24:44 [FAILURE] rpi5 Exited with error code 255
+Stderr: The authenticity of host 'rpi5 (192.168.25.6)' can't be established.
+ECDSA key fingerprint is SHA256:dszzIQzVzVCKSZ+Vzkj9KNAirLZzKm//p+Tih+Pcl2Q.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[3] 01:24:45 [FAILURE] rpi3 Exited with error code 255
+Stderr: The authenticity of host 'rpi3 (192.168.25.4)' can't be established.
+ECDSA key fingerprint is SHA256:i52lKWV0Tre6VB09Ib9/MFGC8brk20G1EvSu7OohiwY.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[4] 01:24:45 [FAILURE] rpi7 Exited with error code 255
+Stderr: The authenticity of host 'rpi7 (192.168.25.8)' can't be established.
+ECDSA key fingerprint is SHA256:j4nfLMvp1NHkUnUZXlblm+v5+XjNlkzOCdN92xzUiD8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[5] 01:24:45 [FAILURE] rpi13 Exited with error code 255
+Stderr: The authenticity of host 'rpi13 (192.168.25.14)' can't be established.
+ECDSA key fingerprint is SHA256:Yhp21MyqPA5UzZUBgCR9aWQMyq9EQzY/w4i3tfGi7m8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[6] 01:24:45 [FAILURE] rpi8 Exited with error code 255
+Stderr: The authenticity of host 'rpi8 (192.168.25.9)' can't be established.
+ECDSA key fingerprint is SHA256:SuapdTAqDvy3uQ+PTJyCLB3C4YChuIxeNm3JfXTnHFE.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[7] 01:24:45 [FAILURE] rpi14 Exited with error code 255
+Stderr: The authenticity of host 'rpi14 (192.168.25.15)' can't be established.
+ECDSA key fingerprint is SHA256:nGhx4GRSDHqb8qLUALRMT9INQcZFzMDf3S0bIECshRY.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[8] 01:24:45 [FAILURE] rpi2 Exited with error code 255
+Stderr: The authenticity of host 'rpi2 (192.168.25.3)' can't be established.
+ECDSA key fingerprint is SHA256:BxV9LfXPZ2DdTBoF2X7u+Ur4bppbTy++7xcmu2yITuA.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[9] 01:24:45 [FAILURE] rpi4 Exited with error code 255
+Stderr: The authenticity of host 'rpi4 (192.168.25.5)' can't be established.
+ECDSA key fingerprint is SHA256:qxDi+gZkIA0ZkTJCI0eqATvxzBLt6SP8HlQqy6GCFag.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[10] 01:24:45 [FAILURE] rpi9 Exited with error code 255
+Stderr: The authenticity of host 'rpi9 (192.168.25.10)' can't be established.
+ECDSA key fingerprint is SHA256:ZP7KtTI8FQFfuzXWMJ4Aw9Wwk61oOyN8Lg1WIGyFkU8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[11] 01:24:45 [FAILURE] rpi10 Exited with error code 255
+Stderr: The authenticity of host 'rpi10 (192.168.25.11)' can't be established.
+ECDSA key fingerprint is SHA256:mlrzAb0na2vRE3Pu78kLYsDYk1sx0NnS8a0JtfOdC9w.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[12] 01:24:45 [FAILURE] rpi11 Exited with error code 255
+Stderr: The authenticity of host 'rpi11 (192.168.25.12)' can't be established.
+ECDSA key fingerprint is SHA256:1sUd6ie0ouCUeDxKKJV1Bo6nuAcg624s/ZoHFM153vE.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[13] 01:24:45 [FAILURE] rpi12 Exited with error code 255
+Stderr: The authenticity of host 'rpi12 (192.168.25.13)' can't be established.
+ECDSA key fingerprint is SHA256:uHULq6fPDc6BlE6ilj1Lx0zFQbDQvH3VkaSEADBBiZo.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[14] 01:24:45 [FAILURE] rpi15 Exited with error code 255
+Stderr: no such identity: /root/.ssh/id_rsa: No such file or directory
+pssh error: SSH requested a password. Please create SSH keys or use
+the -A option to provide a password.
+Permission denied (publickey,password).
+[1] 07:39:09 [FAILURE] rpi7 Exited with error code 255
+Stderr: The authenticity of host 'rpi7 (192.168.25.8)' can't be established.
+ECDSA key fingerprint is SHA256:j4nfLMvp1NHkUnUZXlblm+v5+XjNlkzOCdN92xzUiD8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[2] 07:39:09 [FAILURE] rpi5 Exited with error code 255
+Stderr: The authenticity of host 'rpi5 (192.168.25.6)' can't be established.
+ECDSA key fingerprint is SHA256:dszzIQzVzVCKSZ+Vzkj9KNAirLZzKm//p+Tih+Pcl2Q.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[3] 07:39:09 [FAILURE] rpi8 Exited with error code 255
+Stderr: The authenticity of host 'rpi8 (192.168.25.9)' can't be established.
+ECDSA key fingerprint is SHA256:SuapdTAqDvy3uQ+PTJyCLB3C4YChuIxeNm3JfXTnHFE.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[4] 07:39:09 [FAILURE] rpi9 Exited with error code 255
+Stderr: The authenticity of host 'rpi9 (192.168.25.10)' can't be established.
+ECDSA key fingerprint is SHA256:ZP7KtTI8FQFfuzXWMJ4Aw9Wwk61oOyN8Lg1WIGyFkU8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[5] 07:39:09 [FAILURE] rpi10 Exited with error code 255
+Stderr: The authenticity of host 'rpi10 (192.168.25.11)' can't be established.
+ECDSA key fingerprint is SHA256:mlrzAb0na2vRE3Pu78kLYsDYk1sx0NnS8a0JtfOdC9w.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[6] 07:39:09 [FAILURE] rpi3 Exited with error code 255
+Stderr: The authenticity of host 'rpi3 (192.168.25.4)' can't be established.
+ECDSA key fingerprint is SHA256:i52lKWV0Tre6VB09Ib9/MFGC8brk20G1EvSu7OohiwY.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[7] 07:39:09 [FAILURE] rpi6 Exited with error code 255
+Stderr: The authenticity of host 'rpi6 (192.168.25.7)' can't be established.
+ECDSA key fingerprint is SHA256:q3EgxfzVe1vbAcj8A415RihNmJjfQIcseKeh8VLitVU.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[8] 07:39:09 [FAILURE] rpi11 Exited with error code 255
+Stderr: The authenticity of host 'rpi11 (192.168.25.12)' can't be established.
+ECDSA key fingerprint is SHA256:1sUd6ie0ouCUeDxKKJV1Bo6nuAcg624s/ZoHFM153vE.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[9] 07:39:09 [FAILURE] rpi13 Exited with error code 255
+Stderr: The authenticity of host 'rpi13 (192.168.25.14)' can't be established.
+ECDSA key fingerprint is SHA256:Yhp21MyqPA5UzZUBgCR9aWQMyq9EQzY/w4i3tfGi7m8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[10] 07:39:09 [FAILURE] rpi2 Exited with error code 255
+Stderr: The authenticity of host 'rpi2 (192.168.25.3)' can't be established.
+ECDSA key fingerprint is SHA256:BxV9LfXPZ2DdTBoF2X7u+Ur4bppbTy++7xcmu2yITuA.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[11] 07:39:09 [FAILURE] rpi4 Exited with error code 255
+Stderr: The authenticity of host 'rpi4 (192.168.25.5)' can't be established.
+ECDSA key fingerprint is SHA256:qxDi+gZkIA0ZkTJCI0eqATvxzBLt6SP8HlQqy6GCFag.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[12] 07:39:09 [FAILURE] rpi14 Exited with error code 255
+Stderr: The authenticity of host 'rpi14 (192.168.25.15)' can't be established.
+ECDSA key fingerprint is SHA256:nGhx4GRSDHqb8qLUALRMT9INQcZFzMDf3S0bIECshRY.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[13] 07:39:10 [FAILURE] rpi12 Exited with error code 255
+Stderr: The authenticity of host 'rpi12 (192.168.25.13)' can't be established.
+ECDSA key fingerprint is SHA256:uHULq6fPDc6BlE6ilj1Lx0zFQbDQvH3VkaSEADBBiZo.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[14] 07:39:10 [FAILURE] rpi15 Exited with error code 255
+Stderr: no such identity: /root/.ssh/id_rsa: No such file or directory
+pssh error: SSH requested a password. Please create SSH keys or use
+the -A option to provide a password.
+Permission denied (publickey,password).
+[1] 08:49:18 [FAILURE] rpi4 Exited with error code 255
+Stderr: The authenticity of host 'rpi4 (192.168.25.5)' can't be established.
+ECDSA key fingerprint is SHA256:qxDi+gZkIA0ZkTJCI0eqATvxzBLt6SP8HlQqy6GCFag.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[2] 08:49:18 [FAILURE] rpi2 Exited with error code 255
+Stderr: The authenticity of host 'rpi2 (192.168.25.3)' can't be established.
+ECDSA key fingerprint is SHA256:BxV9LfXPZ2DdTBoF2X7u+Ur4bppbTy++7xcmu2yITuA.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[3] 08:49:18 [FAILURE] rpi3 Exited with error code 255
+Stderr: The authenticity of host 'rpi3 (192.168.25.4)' can't be established.
+ECDSA key fingerprint is SHA256:i52lKWV0Tre6VB09Ib9/MFGC8brk20G1EvSu7OohiwY.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[4] 08:49:18 [FAILURE] rpi14 Exited with error code 255
+Stderr: The authenticity of host 'rpi14 (192.168.25.15)' can't be established.
+ECDSA key fingerprint is SHA256:nGhx4GRSDHqb8qLUALRMT9INQcZFzMDf3S0bIECshRY.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[5] 08:49:18 [FAILURE] rpi5 Exited with error code 255
+Stderr: The authenticity of host 'rpi5 (192.168.25.6)' can't be established.
+ECDSA key fingerprint is SHA256:dszzIQzVzVCKSZ+Vzkj9KNAirLZzKm//p+Tih+Pcl2Q.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[6] 08:49:18 [FAILURE] rpi11 Exited with error code 255
+Stderr: The authenticity of host 'rpi11 (192.168.25.12)' can't be established.
+ECDSA key fingerprint is SHA256:1sUd6ie0ouCUeDxKKJV1Bo6nuAcg624s/ZoHFM153vE.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[7] 08:49:18 [FAILURE] rpi10 Exited with error code 255
+Stderr: The authenticity of host 'rpi10 (192.168.25.11)' can't be established.
+ECDSA key fingerprint is SHA256:mlrzAb0na2vRE3Pu78kLYsDYk1sx0NnS8a0JtfOdC9w.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[8] 08:49:18 [FAILURE] rpi8 Exited with error code 255
+Stderr: The authenticity of host 'rpi8 (192.168.25.9)' can't be established.
+ECDSA key fingerprint is SHA256:SuapdTAqDvy3uQ+PTJyCLB3C4YChuIxeNm3JfXTnHFE.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[9] 08:49:18 [FAILURE] rpi6 Exited with error code 255
+Stderr: The authenticity of host 'rpi6 (192.168.25.7)' can't be established.
+ECDSA key fingerprint is SHA256:q3EgxfzVe1vbAcj8A415RihNmJjfQIcseKeh8VLitVU.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[10] 08:49:18 [FAILURE] rpi7 Exited with error code 255
+Stderr: The authenticity of host 'rpi7 (192.168.25.8)' can't be established.
+ECDSA key fingerprint is SHA256:j4nfLMvp1NHkUnUZXlblm+v5+XjNlkzOCdN92xzUiD8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[11] 08:49:18 [FAILURE] rpi13 Exited with error code 255
+Stderr: The authenticity of host 'rpi13 (192.168.25.14)' can't be established.
+ECDSA key fingerprint is SHA256:Yhp21MyqPA5UzZUBgCR9aWQMyq9EQzY/w4i3tfGi7m8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[12] 08:49:18 [FAILURE] rpi9 Exited with error code 255
+Stderr: The authenticity of host 'rpi9 (192.168.25.10)' can't be established.
+ECDSA key fingerprint is SHA256:ZP7KtTI8FQFfuzXWMJ4Aw9Wwk61oOyN8Lg1WIGyFkU8.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[13] 08:49:18 [FAILURE] rpi12 Exited with error code 255
+Stderr: The authenticity of host 'rpi12 (192.168.25.13)' can't be established.
+ECDSA key fingerprint is SHA256:uHULq6fPDc6BlE6ilj1Lx0zFQbDQvH3VkaSEADBBiZo.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+[14] 08:49:18 [FAILURE] rpi15 Exited with error code 255
+Stderr: no such identity: /root/.ssh/id_rsa: No such file or directory
+pssh error: SSH requested a password. Please create SSH keys or use
+the -A option to provide a password.
+Permission denied (publickey,password).

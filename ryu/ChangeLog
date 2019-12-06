@@ -1,6 +1,15 @@
 CHANGES
 =======
 
+* pervio a la presentacion
+* new scripts written
+* start web server from beginnig
+* pre final lap
+* major bir commit not sure 2
+* major update not sure
+* README written
+* Scripts placed on scripts directory
+* backing up
 * Se reinstalo ryu para configurar STP y que el restAPI no sea publico(127.0.0.1)
 * El precompiler esta avanzado, ahora solo con crear el archivo data con el lenguaje vsorc se puede arrancar la topologia
 * added cleaner and precompiler

@@ -2,7 +2,7 @@
 : '
 Written by: Felix G. Tejada
 
-This script is applied to a linear 3 topo, just for show the example
+This is for clean all flows and set a default one on any switch.
 '
 dpid=$1
 curl -X DELETE http://localhost:8080/stats/flowentry/clear/$dpid

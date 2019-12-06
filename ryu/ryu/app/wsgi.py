@@ -34,7 +34,7 @@ from webob.response import Response as webob_Response
 from ryu import cfg
 from ryu.lib import hub
 
-DEFAULT_WSGI_HOST = '0.0.0.0'
+DEFAULT_WSGI_HOST = '127.0.0.1'
 DEFAULT_WSGI_PORT = 8080
 
 CONF = cfg.CONF

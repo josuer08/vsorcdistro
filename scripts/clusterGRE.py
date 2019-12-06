@@ -25,7 +25,7 @@ def inicia():
     topo1 = TreeTopo(depth=2, fanout=2) # Topologia basica
     topo2 = MiTopo() # Topologia desde el archivo topotest
     topo3 = TopoFromCompiler() # Topologia creada a partir del archivo data
-    topo4 = TreeTopo(depth=3, fanout=3) # Topologia grande en arbol
+    topo4 = TreeTopo(depth=4, fanout=4) # Topologia GRANDE en arbol
     net = MininetCluster(topo=topo3, servers=servers, link=RemoteGRELink, placement=SwitchBinPlacer, controller=c)
     net.start()
     CLI(net)
