@@ -1,6 +1,0 @@
-mkfifo fifo
-exec 3>fifo (deja un file descriptor conectado a el fifo par evitar EOF)
-programa < fifo (o si no "cat fifo | programa")
-echo "comandoVSORC" >> fifo
-echo "otro comandoVSORC" >> fifo
-exec 3>&- (esto cierra el tercer file descriptor)
